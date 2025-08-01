@@ -1,0 +1,23 @@
+GET http://localhost:5064/products
+###
+GET http://localhost:5064/products/1
+###
+POST http://localhost:5064/products
+Content-Type: application/json
+
+{
+    "name": "Producto 1",
+    "price": 10.50,
+    "quantity": 3
+}
+###
+PUT http://localhost:5064/products/1
+Content-Type: application/json
+
+{
+    "name": "Updated Product",
+    "price": 900,
+    "quantity": 25
+}
+###
+DELETE http://localhost:5064/products/2
