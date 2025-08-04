@@ -37,7 +37,7 @@ jobs:
         run: dotnet test ${{ env.SOLUTION_PATH }} --configuration Release --no-restore --no-build --verbosity normal
 
       - name: publish
-        run: dotnet publish ${{ env.API_PROJECT_PATH }}\ --configuration Release --no-restore --no-build --property:PublishDir=${{ env.PUBLISH_DIR }} --verbosity detailed
+        run: dotnet publish ${{ env.API_PROJECT_PATH }} --configuration Release --no-restore --no-build --property:PublishDir=${{ env.PUBLISH_DIR }} --verbosity detailed
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v4
