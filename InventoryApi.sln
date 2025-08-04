@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryApi", "InventoryApi\InventoryApi.csproj", "{732B1E07-B861-4D08-8364-CA4624E940D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryApi.Tests", "InventoryApi.Tests\InventoryApi.Tests.csproj", "{62D4410F-87EB-470E-81F5-271279E6447B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{732B1E07-B861-4D08-8364-CA4624E940D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{732B1E07-B861-4D08-8364-CA4624E940D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{732B1E07-B861-4D08-8364-CA4624E940D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D4410F-87EB-470E-81F5-271279E6447B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D4410F-87EB-470E-81F5-271279E6447B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D4410F-87EB-470E-81F5-271279E6447B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D4410F-87EB-470E-81F5-271279E6447B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
