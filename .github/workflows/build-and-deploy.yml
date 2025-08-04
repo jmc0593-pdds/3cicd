@@ -8,7 +8,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: pdds-3cicd-jocaro93
-  AZURE_WEBAPP_PACKAGE_PATH: "./publish"
+  AZURE_WEBAPP_PACKAGE_PATH: "./InventoryApi/publish"
   DOTNET_VERSION: "8.x"
   SOLUTION_PATH: "InventoryApi.sln"
   API_PROJECT_PATH: "InventoryApi"
